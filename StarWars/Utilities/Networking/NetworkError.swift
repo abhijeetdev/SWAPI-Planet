@@ -7,6 +7,8 @@
 
 import Foundation
 
+
+
 enum NetworkError: Error, Equatable {
     case apiError(reason: String)
     case badRequest
